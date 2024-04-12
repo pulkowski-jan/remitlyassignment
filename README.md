@@ -8,7 +8,8 @@ If the path parameter is given, attempts to read from the file.
 Otherwise, reads from stdin ('-q' suppresses build system logs).
 ## Linux / macOS
 `./gradlew run -q [--args=\<path>]`  
-Note that java standard library (and hence this program) does not support '~' as an alias 
+Please, note that Java Standard Library (and hence this program) does not support '~' 
+as an alias 
 for the user home directory. Use `$HOME` instead.
 ## Windows
 `.\gradlew.bat run -q [--args=\<path>]`
