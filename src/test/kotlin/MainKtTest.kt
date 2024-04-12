@@ -289,7 +289,6 @@ class MainKtTest {
                     }
                 }
             """.trimIndent()
-            val result = getResource(json)
             assertTrue(verify(json))
         }
 
